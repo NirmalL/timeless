@@ -1744,11 +1744,11 @@ GtkTreeMenu .menuitem {
 }
 
 .menubar .menuitem {
-    padding: 3px 6px;
+    padding: 3px 4px;
 }
 
 .menu .menuitem {
-    padding: 6px;
+    padding: 3px 4px;
     text-shadow: none;
     icon-shadow: none;
     border-width: 1px 0;
@@ -1768,11 +1768,19 @@ GtkTreeMenu .menuitem {
     -gtk-icon-style: symbolic;
 }
 
+.menubar .menuitem:active,
+.menubar .menuitem:hover,
 .menu .menuitem:active,
 .menu .menuitem:hover,
 .popup .menuitem:active,
 .popup .menuitem:hover {
-    background-color: alpha (@text_color, 0.15);
+    /* #6888F9, #0E50ED */
+    background-image: linear-gradient(
+      #6888F9,
+      alpha (@selected_bg_color, 1)
+    );
+    color: #f6f6f6;
+    transition: background-image 300ms ease;
 }
 
 .menu .menuitem *:insensitive {
