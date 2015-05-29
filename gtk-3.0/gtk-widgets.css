@@ -1439,10 +1439,11 @@ GtkOverlay .linked .button:insensitive:last-child {
     border-radius: 2.5px;
 
     padding: 2px 3px 0;
+    padding: 5px;
 }
 
 .dynamic-notebook .notebook tab {
-    padding: 3px;
+    padding: 5px;
 
     border-radius: 0;
 

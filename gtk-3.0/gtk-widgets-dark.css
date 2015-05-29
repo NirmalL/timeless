@@ -459,6 +459,14 @@ GtkProgressBar.trough {
 * Notebook and Tabs *
 ********************/
 
+.notebook tab {
+    padding: 5px;
+}
+
+.dynamic-notebook .notebook tab {
+    padding: 5px;
+}
+
 .dynamic-notebook .notebook tab:active {
     box-shadow: inset 0 0 0 1px alpha (#fff, 0.05),
                 0 0 1px 1px alpha (#000, 0.15);
