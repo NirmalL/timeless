@@ -1,13 +1,13 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=elementary
-Comment=elementary desktop default theme
+Name=timeless
+Comment=timeless theme for elementary desktop
 Encoding=UTF-8
 
-Name[en_US]=elementary
+Name[en_US]=timeless
 
 [X-GNOME-Metatheme]
-GtkTheme=elementary
+GtkTheme=timeless
 MetacityTheme=elementary
 IconTheme=elementary
 CursorTheme=DMZ-Black
