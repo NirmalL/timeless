@@ -1745,11 +1745,11 @@ GtkTreeMenu .menuitem {
 }
 
 .menubar .menuitem {
-    padding: 3px 4px;
+    padding: 3px 0;
 }
 
 .menu .menuitem {
-    padding: 3px 4px;
+    padding: 3px 0;
     text-shadow: none;
     icon-shadow: none;
     border-width: 1px 0;
@@ -1765,7 +1765,7 @@ GtkTreeMenu .menuitem {
 
 .menu .menuitem GtkLabel,
 .menu .menuitem GtkImage {
-    padding: 0 3px;
+    padding: 0 0px;
     -gtk-icon-style: symbolic;
 }
 
