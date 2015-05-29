@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <metacity_theme>
 <info>
-    <name>elementary</name>
-    <author>Daniel Fore</author>
-    <copyright>elementary LLC.</copyright>
-    <date>2009-2014</date>
-    <description>elementary theme for LibMutter-based WM's</description>
+    <name>timeless</name>
+    <author>NirmalL</author>
+    <copyright>ElvinLabs</copyright>
+    <date>2015</date>
+    <description>timeless theme for metacity-based WM's</description>
 </info>
 
 <!-- :: CONSTANTS :: -->
