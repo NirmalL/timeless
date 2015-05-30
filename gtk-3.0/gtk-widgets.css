@@ -1753,6 +1753,7 @@ GtkTreeMenu .menuitem {
     text-shadow: none;
     icon-shadow: none;
     border-width: 1px 0;
+    padding-right: 4px;
 }
 
 .menu .menuitem.arrow {
@@ -1765,8 +1766,12 @@ GtkTreeMenu .menuitem {
 
 .menu .menuitem GtkLabel,
 .menu .menuitem GtkImage {
-    padding: 0 0px;
+    padding: 0px 0px;
     -gtk-icon-style: symbolic;
+}
+
+.menu .menuitem GtkImage {
+    padding: 0px 0px;
 }
 
 .menubar .menuitem:active,
@@ -2737,17 +2742,6 @@ GtkDialog .sidebar .view:hover:selected {
 .sidebar .view:hover:selected:backdrop,
 .source-list.view:selected:backdrop,
 .source-list.view:hover:selected:backdrop {
-/*
-    background-image: linear-gradient(to bottom,
-                                  alpha (#000, 0.04),
-                                  alpha (#000, 0.03)
-                                  );
-
-    border-image: linear-gradient(to bottom,
-                                  alpha (#000, 0.15),
-                                  alpha (#fff, 0.25)
-                                  ) 1 1 1 1;
-*/
     background-image: linear-gradient(
         to bottom,
         #839cc6, /*#74A0E9*/
