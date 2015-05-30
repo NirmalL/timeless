@@ -49,6 +49,14 @@
 
 @define-color view_symbolic_color shade(@internal_element_color, 0.80);
 
+/* Timeless colors */
+@define-color mac_menu_select_bottom #0e50ed;
+@define-color mac_menu_select_top #6888f9;
+@define-color mac_sidebar_select_bottom #5568D6;
+@define-color mac_sidebar_select_border_bottom #505dc6;
+@define-color mac_sidebar_select_top #74A0E9;
+/*@define-color mac_sidebar_bg #dcdfe8;*/
+
 /* Colormap actually used by the theme, to be overridden in other css files */
 @define-color theme_base_color @base_color;
 @define-color theme_text_color @text_color;
