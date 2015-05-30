@@ -44,9 +44,10 @@
 
 /* Timeless colors */
 @define-color mac_menu_select_bottom #0e50ed;
-@define-color mac_menus_elect_top #6888f9;
-@define-color mac_sidebar_select_bottom #505dc6;
-/*@define-color mac_sidebar_select_top #...;*/
+@define-color mac_menu_select_top #6888f9;
+@define-color mac_sidebar_select_bottom #5568D6;
+@define-color mac_sidebar_select_border_bottom #505dc6;
+@define-color mac_sidebar_select_top #74A0E9;
 @define-color mac_sidebar_bg #dcdfe8;
 
 @define-color internal_element_color mix(@text_color, @base_color, 0.4);
