@@ -2626,7 +2626,7 @@ GtkListBox,
 .sidebar GtkScrolledWindow,
 .source-list,
 .source-list.view {
-    background-color: shade (@bg_color, 0.92);
+    background-color: @mac_sidebar_bg;
     color: shade (@titlebar_color, 0.50);
     -gtk-icon-style: regular;
 }
@@ -2638,7 +2638,7 @@ GtkListBox,
 GtkDialog .sidebar,
 GtkDialog .sidebar .view,
 GtkDialog .sidebar GtkScrolledWindow {
-    background-color: shade (@titlebar_color, 1.07);
+    background-color: @mac_sidebar_bg;
 }
 
 .sidebar,
