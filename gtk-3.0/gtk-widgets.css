@@ -1775,12 +1775,11 @@ GtkTreeMenu .menuitem {
 .menu .menuitem:hover,
 .popup .menuitem:active,
 .popup .menuitem:hover {
-    /* #6888F9, #0E50ED */
     background-image: linear-gradient(
-      #6888F9,
-      alpha (@selected_bg_color, 1)
+      @mac_menus_elect_top,
+      @mac_menu_select_bottom
     );
-    color: #f6f6f6;
+    color: @selected_color_fg;
     transition: background-image 300ms ease;
 }
 

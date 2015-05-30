@@ -33,14 +33,21 @@
 @define-color menu_separator alpha (#000, 0.15);
 @define-color placeholder_text_color shade(@text_color, 2.5);
 @define-color progress_row_trough_color #DEDEDE;
-@define-color selected_bg_color #0E50ED;
-@define-color selected_fg_color #FFF;
+@define-color selected_bg_color #3d9bda;
+@define-color selected_fg_color #fff;
 @define-color text_color #333;
 @define-color titlebar_color #DEDEDE;
 @define-color title_color shade (@titlebar_color, 0.55);
 @define-color title_shadow_color alpha (#fff, 0.6);
 @define-color tooltip_bg_color #000;
 @define-color tooltip_fg_color #FFF;
+
+/* Timeless colors */
+@define-color mac_menu_select_bottom #0e50ed;
+@define-color mac_menus_elect_top #6888f9;
+@define-color mac_sidebar_select_bottom #505dc6;
+/*@define-color mac_sidebar_select_top #...;*/
+@define-color mac_sidebar_bg #dcdfe8;
 
 @define-color internal_element_color mix(@text_color, @base_color, 0.4);
 @define-color internal_element_prelight mix(@text_color, @base_color, 0.2);
